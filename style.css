@@ -1,0 +1,162 @@
+body {
+  background: #fff;
+  font-family: verdana;
+  font-size: 0.85em;
+ }
+.header{
+  grid-area: header;
+}
+.cek{
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.navigator{
+ display: block;
+ background-color:#eee4e4;
+ height: 80px;
+ font-weight: bold;
+ border-radius: 10px;
+ align-items: center;
+ position: relative;
+ margin: 20px auto 0;
+}
+
+.navigator a {
+  color: black;
+  text-decoration: none;
+}
+#challange, #about, #contact{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  }
+#challange a {
+  position: relative;
+  height: 40px;
+}
+
+.tombol{
+  margin: 0;
+  border-style: none;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #727272;
+  height: 40px;
+  text-decoration: none;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+#menu {
+  display: flex;
+  flex-direction: row;
+ position:relative;
+ line-height: 60px;
+ margin:0;
+ padding:0;
+ list-style-type:none;
+ list-style-position:outside;
+}
+ul{
+  float: right;
+  display: inline-block;
+}
+.muncul{
+  background-color: #c5b3b3;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  color: black;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+#home{
+    background-color: #f5f5f5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+#menu li a {
+  float:left; 
+  margin:8px;
+  margin-right: 20px;
+}
+.clear {clear:both;}
+
+.main{
+  grid-area: main;
+  height: 300px;
+  background: #e0c49c;
+  width: 100%;
+}
+.isi{
+  justify-content: center;
+}
+.fotoaku > img{
+  width: 4cm;
+  height: 4cm;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  padding: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  border: 1px solid #0000;
+  position: block;
+}
+.nama, .nim{
+  text-align: center;
+  font-family: Verdana;
+  font-size: 20px;
+}
+@media only screen and (min-width: 460px) and (max-width:600px) {
+  .header{
+    width: 100%;
+  }
+  .main{
+    width: 100%;
+  }
+  }
+@media only screen and (min-width: 600x) {
+  .header{
+    width: 100%;
+  }
+  .main{
+    width: 100%;
+  }
+  }
+@media only screen and (min-width: 768px) {
+  .header{
+    width: 100%;
+  }
+  .main{
+    width: 100%;
+  }
+  }
+@media only screen and (min-width: 992px) {
+  .header{
+    width: 100%;
+  }
+  .main{
+    width: 100%;
+  }
+  }
+@media only screen and (min-width: 1200px) {
+  .header{
+    width: 100%;
+  }
+  .main{
+    width: 100%;
+  }
+  }
